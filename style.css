@@ -32,6 +32,13 @@ p {
   margin: 10px 0;
 }
 
+/* Utility Classes */
+.container {
+  max-width: 968px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* Hero Section */
 .hero {
   position: relative;
