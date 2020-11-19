@@ -65,3 +65,19 @@ p {
   height: 100%;
   background: url("./images/bg-pattern-bottom-desktop.svg") no-repeat;
 }
+
+/* Top Section */
+.top-section {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.text-content {
+  width: 50%;
+  max-width: 400px;
+}
+
+.text-content h1 {
+  font-size: 3rem;
+  color: var(--clr-primary);
+}
