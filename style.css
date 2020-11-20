@@ -129,9 +129,12 @@ ul {
 .reviews-boxes {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  align-items: center;
+  margin-top: 5rem;
   width: 100%;
   font-size: 0.8rem;
+  min-height: 250px;
+  /* background-color: chartreuse; */
 }
 
 .review-box {
@@ -163,4 +166,12 @@ ul {
   height: 15%;
   object-fit: cover;
   margin-right: 2em;
+}
+
+.review-box:first-child {
+  align-self: flex-start;
+}
+
+.review-box:last-child {
+  align-self: flex-end;
 }
