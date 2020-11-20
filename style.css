@@ -141,3 +141,7 @@ ul {
   border-radius: 10px;
   padding: 2rem;
 }
+
+.review-box .profile-top {
+  display: flex;
+}
