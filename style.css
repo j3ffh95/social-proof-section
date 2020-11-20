@@ -124,3 +124,10 @@ ul {
 .box-2 {
   align-self: center;
 }
+
+/* Reviews box */
+.reviews-boxes {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
