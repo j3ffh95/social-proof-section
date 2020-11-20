@@ -228,7 +228,7 @@ ul {
   .review-box {
     width: 100%;
     margin: 1rem 0;
-    max-width: 500px;
+    max-width: 400px;
   }
 
   .review-box:first-child,
