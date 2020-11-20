@@ -194,4 +194,25 @@ ul {
     width: 100%;
     max-width: 500px;
   }
+
+  .ratings-box {
+    align-items: stretch;
+    width: 100%;
+    margin: 4rem 0;
+    max-width: 500px;
+  }
+
+  .box {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .box span {
+    margin: 0;
+  }
+
+  .box-1,
+  .box-2 {
+    align-self: inherit;
+  }
 }
