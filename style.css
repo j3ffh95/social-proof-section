@@ -144,6 +144,17 @@ ul {
 
 .review-box .profile-top {
   display: flex;
+  align-items: flex-start;
+}
+
+.profile-top h2,
+.profile-top p {
+  font-size: 1em;
+}
+
+.profile-top p {
+  color: var(--clr-secondary);
+  margin-top: 0;
 }
 
 .profile-top img {
@@ -151,4 +162,5 @@ ul {
   width: 15%;
   height: 15%;
   object-fit: cover;
+  margin-right: 2em;
 }
