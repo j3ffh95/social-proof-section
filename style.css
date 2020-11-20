@@ -215,4 +215,14 @@ ul {
   .box-2 {
     align-self: inherit;
   }
+
+  .reviews-boxes {
+    flex-direction: column;
+  }
+
+  .review-box {
+    width: 100%;
+    margin: 1rem 0;
+    max-width: 500px;
+  }
 }
