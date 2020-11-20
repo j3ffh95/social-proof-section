@@ -19,6 +19,7 @@ body {
   font-family: "Spartan", sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  height: 100%;
 }
 
 /* Basic Styles */
@@ -41,12 +42,13 @@ ul {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 /* Hero Section */
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
   overflow: hidden;
 }
 
@@ -174,4 +176,8 @@ ul {
 
 .review-box:last-child {
   align-self: flex-end;
+}
+
+.review-box .review-content {
+  margin-top: 1.5rem;
 }
