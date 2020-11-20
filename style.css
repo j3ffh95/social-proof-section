@@ -181,3 +181,17 @@ ul {
 .review-box .review-content {
   margin-top: 1.5rem;
 }
+
+/* Screen less than 768px width */
+@media screen and (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-content {
+    width: 100%;
+    max-width: 500px;
+  }
+}
