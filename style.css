@@ -184,6 +184,11 @@ ul {
 
 /* Screen less than 768px width */
 @media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+
   .top-section {
     flex-direction: column;
     align-items: center;
@@ -224,5 +229,14 @@ ul {
     width: 100%;
     margin: 1rem 0;
     max-width: 500px;
+  }
+
+  .review-box:first-child,
+  .review-box:last-child {
+    align-self: inherit;
+  }
+
+  .review-box .profile-top {
+    align-items: flex-end;
   }
 }
